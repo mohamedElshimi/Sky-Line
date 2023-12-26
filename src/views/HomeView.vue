@@ -20,7 +20,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/10Days.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[250px] rounded-full right-4 bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">1235</p>
             <p class="text-lg font-semibold text-center">1280</p>
             <p class="text-center text-sm">دولار</p>
@@ -33,7 +33,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/8Days.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[250px] rounded-full right-4 bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">1055</p>
             <p class="text-lg font-semibold text-center">1050</p>
             <p class="text-center text-sm">دولار</p>
@@ -46,7 +46,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/12Days.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[250px] rounded-full right-4 bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">1485</p>
             <p class="text-lg font-semibold text-center">1590</p>
             <p class="text-center text-sm">دولار</p>
@@ -74,7 +74,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/12Days-azrabegan.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[280px] rounded-full right-4 border-4 border-primary bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">1280</p>
             <p class="text-lg font-semibold text-center">1630</p>
             <p class="text-center text-sm">دولار</p>
@@ -87,7 +87,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/10Days-azrabegan.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[280px] rounded-full right-4 border-4 border-primary bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">1110</p>
             <p class="text-lg font-semibold text-center">1420</p>
             <p class="text-center text-sm">دولار</p>
@@ -100,7 +100,7 @@
       <div class="lg:w-4/12 md:w-6/12 w-full mt-3 px-3">
         <div class="card relative pb-4">
           <img src="../assets/Images/8Days-azrabegan.png" class="card-image" alt="">
-          <div class="w-[100px] h-[100px] absolute top-[280px] rounded-full right-4 border-4 border-primary bg-white pt-2">
+          <div class="price-overlay">
             <p class="line-through text-gray-400 text-center text-lg">940</p>
             <p class="text-lg font-semibold text-center">1210</p>
             <p class="text-center text-sm">دولار</p>
@@ -112,7 +112,7 @@
       </div>
     </div>
   </section>
-  <section class="mt-10 my-5 relative pt-5">
+  <section class="mt-10 my-5 relative pt-5 hidden md:block">
     <div class="img-overlay2"></div>
     <p class="text-center w-7/12 text-lg text-gray-900 relative z-10 my-5 mx-auto">نسعي الي نقل السياحة في جورجيا و اذربيجان الي افضل وارقي مستوي بأنسب الاسعار . سياحتكم في امان مع سكاي لاين الاسم الاضمن و الاشهر في مجال السياحة في دولتين جورجيا و اذربيجان</p>
     <div class="card relative z-10 w-10/12 mx-auto pb-4 flex flex-wrap lg:justify-between justify-center">
@@ -122,17 +122,17 @@
             <p class="text-lg font-semibold text-center">1280</p>
             <p class="text-center text-sm">دولار</p>
           </div>
-          <div class="flex flex-wrap w-full my-5">
-            <h2 class="lg:text-xl md:text-lg text-base ms-10 font-semibold px-2 lg:w-8/12 w-full lg:text-start text-center">برنامج ❄️ جورجيا السياحي 10 ايام 9 ليالي العرض الذهبي</h2>
-            <p class="text-gray-600 me-10 lg:text-end lg:w-3/12 w-full font-semibold text-center">10 ايام و 9 ليالى</p>
+          <div class="flex flex-wrap w-full lg:my-5 mt-3">
+            <h2 class="lg:text-xl md:text-lg text-base ms-10 font-semibold px-2 lg:w-6/12 w-full lg:text-start text-center">برنامج ❄️ جورجيا السياحي 10 ايام 9 ليالي العرض الذهبي</h2>
+            <p class="text-gray-600 me-10 lg:text-end lg:w-4/12 w-full font-semibold text-center">10 ايام و 9 ليالى</p>
           </div>
           <div class="flex flex-wrap w-full my-3 lg:justify-between justify-center">
             <h2 class="w-5/12 ms-10 text-gray-800 text-lg font-semibold lg:block hidden">برنامج ❄️ جورجيا السياحي 10 ايام 9 ليالي العرض الذهبي</h2>
-            <button class="prim-btn rounded-3xl lg:w-4/12 me-10 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+            <button class="prim-btn rounded-3xl lg:w-4/12 w-10/12 lg:me-10 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
           </div>
     </div>
   </section>
-  <section class="mb-10">
+  <section class="mb-10 hidden md:block">
     <div class="flex flex-wrap my-5 w-10/12 mx-auto mt-7">
       <div class="lg:w-4/12 md:w-6/12 w-full px-3 mt-5">
         <div class="card relative pb-4">
@@ -201,6 +201,95 @@
       </div>
     </div>
   </section>
+  <section class="my-10 relative pt-5 block md:hidden">
+  <div class="img-overlay2"></div>
+  <p class="text-center w-7/12 text-lg text-gray-900 relative z-10 my-5 mx-auto">نسعي الي نقل السياحة في جورجيا و اذربيجان الي افضل وارقي مستوي بأنسب الاسعار . سياحتكم في امان مع سكاي لاين الاسم الاضمن و الاشهر في مجال السياحة في دولتين جورجيا و اذربيجان</p>
+  <swiper :modules="modules" :slides-per-view="1" :loop="true" :autoplay="{delay:2500,diableOnInteraction:false,pauseOnMouseEnter:true}" :navigation="true" :pagination="{clickable: true,}"  :space-between="50" @swiper="onSwiper" @slideChange="onSlideChange" class="w-full text-center">
+    <swiper-slide>
+      <div class="card mb-16 relative z-10 w-10/12 mx-auto pb-4 flex flex-wrap lg:justify-between justify-center">
+          <img src="../assets/Images/10Days.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">1235</p>
+            <p class="text-lg font-semibold text-center">1280</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <div class="flex flex-wrap w-full md:my-5 mt0">
+            <h2 class="lg:text-xl md:text-lg text-base ms-10 font-semibold px-2 lg:w-8/12 w-full lg:text-start text-center">برنامج ❄️ جورجيا السياحي 10 ايام 9 ليالي العرض الذهبي</h2>
+            <p class="text-gray-600 me-10 lg:text-end lg:w-3/12 my-3 w-full font-semibold text-center">10 ايام و 9 ليالى</p>
+          </div>
+          <div class="flex flex-wrap w-full md:my-3 my-0 lg:justify-between justify-center">
+            <h2 class="w-5/12 ms-10 text-gray-800 text-lg font-semibold lg:block hidden">برنامج ❄️ جورجيا السياحي 10 ايام 9 ليالي العرض الذهبي</h2>
+            <button class="prim-btn rounded-3xl lg:w-4/12 w-10/12 me-10 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+          </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="card relative z-10 w-10/12 mx-auto pb-4">
+          <img src="../assets/Images/8Days.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">1055</p>
+            <p class="text-lg font-semibold text-center">1050</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <h2 class="card-title">برنامج ❄️ جورجيا السياحي 8 ايام 7 ليالي العرض الذهبي</h2>
+          <p class="text-center text-gray-600 my-3">8 ايام و 7 ليالى</p>
+          <button class="prim-btn w-10/12 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="card relative z-10 w-10/12 mx-auto pb-4">
+          <img src="../assets/Images/12Days.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">1485</p>
+            <p class="text-lg font-semibold text-center">1590</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <h2 class="card-title">برنامج ❄️ جورجيا السياحي 12 يوم 11 ليلة العرض الذهبي</h2>
+          <p class="text-center text-gray-600 my-3">12 ايام و 11 ليالى</p>
+          <button class="prim-btn w-10/12 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="card relative z-10 w-10/12 mx-auto pb-4">
+          <img src="../assets/Images/12Days-azrabegan.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">1280</p>
+            <p class="text-lg font-semibold text-center">1630</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <h2 class="card-title">برنامج اذربيجان السياحي 12 يوم 11 ليلة العرض الذهبي❄️</h2>
+          <p class="text-center text-gray-600 my-3">12 ايام و 11 ليالى</p>
+          <button class="prim-btn rounded-3xl w-10/12 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="card relative z-10 w-10/12 mx-auto pb-4">
+          <img src="../assets/Images/10Days-azrabegan.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">1110</p>
+            <p class="text-lg font-semibold text-center">1420</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <h2 class="card-title">برنامج اذربيجان السياحي 10 ايام 9 ليالي العرض الذهبي❄️</h2>
+          <p class="text-center text-gray-600 my-3">10 ايام و 9 ليالى</p>
+          <button class="prim-btn w-10/12 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="card relative z-10 w-10/12 mx-auto pb-4">
+          <img src="../assets/Images/8Days-azrabegan.png" class="card-image" alt="">
+          <div class="price-overlay">
+            <p class="line-through text-gray-400 text-center text-lg">940</p>
+            <p class="text-lg font-semibold text-center">1210</p>
+            <p class="text-center text-sm">دولار</p>
+          </div>
+          <h2 class="card-title">برنامج اذربيجان السياحي 8 ايام 7 ليالي العرض الذهبي❄️</h2>
+          <p class="text-center text-gray-600 my-3">8 ايام و 7 ليالى</p>
+          <button class="prim-btn w-10/12 block mx-auto font-semibold"><i class="fa-brands fa-whatsapp me-3"></i>استفسر واحجز واتساب</button>
+      </div>
+    </swiper-slide>
+  </swiper>
+  </section>
   <section class="bg-primary py-16 flex justify-center items-center my-10">
     <div class="flex flex-wrap w-10/12 justify-between">
       <h3 class="text-2xl font-bold md:w-6/12 w-full text-center text-white">من اراء عملائنا</h3>
@@ -222,8 +311,8 @@
   </section>
   <section class="bg-primary py-16 flex justify-center items-center my-10">
     <div class="flex flex-wrap w-10/12 md:justify-between justify-center items-center">
-      <h3 class="text-2xl font-bold lg:w-6/12 text-center text-white">انشئ رحلتك بسعر مناسب</h3>
-      <button class="trans-btn lg:w-6/12 md:mt-0 mt-3 text-lg font-semibold">انشئ رحلتك الان</button>
+      <h3 class="text-2xl font-bold md:w-6/12 w-full text-center text-white">انشئ رحلتك بسعر مناسب</h3>
+      <button class="trans-btn md:w-6/12 w-full md:mt-0 mt-3 text-lg font-semibold">انشئ رحلتك الان</button>
     </div>
   </section>
   <section class="border-b-[1px] border-black my-10">
@@ -305,8 +394,8 @@ import 'swiper/css';
     },
     methods:{
       updateWindowWidth() {
-                this.windowWidth = window.innerWidth;
-            },
+          this.windowWidth = window.innerWidth;
+      },
     },
     watch: {
     windowWidth(newValue, oldValue) {
@@ -340,5 +429,13 @@ import 'swiper/css';
 }
 *{
   user-select: none;
+}
+@media (max-width: 797.999999999999999px){
+  .card-image{
+    @apply w-full h-full
+  }
+  .price-overlay{
+    @apply top-[250px]
+  }
 }
 </style>

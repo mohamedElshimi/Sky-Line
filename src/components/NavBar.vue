@@ -1,13 +1,13 @@
 <template>
-    <header class="w-full flex flex-wrap relative">
+    <header class="w-full flex flex-wrap">
         <div class="min-h-[60px] w-full bg-gray-200" v-if="windowWidth >= 1023.999999999999999">
             <div class="w-10/12 mx-auto flex flex-wrap justify-between items-center h-full pt-3">
-                <div class="flex items-center">
+                <div class="flex items-center mb-3">
                     <i class="fa-solid fa-calendar text-primary"></i>
                     <p class="me-7 ms-5 text-sm">سبت , 23 ديسمبر , 2023</p>
                     <p class="text-primary">الاخبار السياحية</p>
                 </div>
-                <marquee direction="right" class="w-6/12 overflow-hidden whitespace-nowrap md:my-0 my-3">
+                <marquee direction="right" class="mb-3 w-6/12 overflow-hidden whitespace-nowrap md:my-0 my-3">
                         المطاعم الحلال في جورجيا : أفضل 10 مطاعم حلال فى جورجيا لعام 2022 
                         - طقس جورجيا .. لتختار أفضل الأوقات لزيارتها 
                         - هل جورجيا تحتاج فيزا؟ … تأشيرة جورجيا للعرب 
@@ -19,7 +19,7 @@
                         - السياحة في تبليسي وأهم 18 مكان يستحق زيارتك 
                         - السياحة في باتومي وأهم 14 مكان يستحق زيارتك 
                 </marquee>
-                <div class="flex items-center lg:mb-0 mb-3">
+                <div class="flex items-center mb-3">
                     <div class="flex items-center bg-white px-2 py-1 rounded-3xl">
                         <i class="fa-solid fa-sun text-primary"></i>
                         <p class="mx-1 text-sm">7.84 C</p>
@@ -33,14 +33,14 @@
             </div>
         </div>
         <div class="h-[250px] w-full overflow-hidden relative">
-            <img src="../assets/Images/W8A7cfSFFqkctjTCafzWsZHM0Dd1Zz-meta2LPZg9in2Ykg2YTYp9mK2YYuanBn-.jpg" alt="Home Banner" class="absolute top-1/2 -translate-y-1/2 lg:h-auto h-full">
+            <img src="../assets/Images/W8A7cfSFFqkctjTCafzWsZHM0Dd1Zz-meta2LPZg9in2Ykg2YTYp9mK2YYuanBn-.jpg" alt="Home Banner" class="absolute top-1/2 -translate-y-1/2 lg:h-auto lg:w-auto xl:h-full xl:w-full h-full w-auto">
         </div>
-        <div class="h-[70px] w-full shadow-md lg:order-none order-first">
-            <div class="lg:w-10/12 md:w-11/12 px-7 mx-auto flex items-center h-full justify-between">
-                <div class="h-full me-5 mx-auto py-2">
+        <div class="min-h-[70px] w-full shadow-md lg:order-none order-first">
+            <div class="lg:w-10/12 md:w-11/12 px-7 mx-auto flex flex-wrap items-center h-full justify-between">
+                <div class="h-[70px] me-5 mx-auto py-2">
                     <img src="../assets/Images/sky-logo.png" class="h-full" alt="">
                 </div>
-                <nav class="me-auto lg:w-11/12 w-2/12 order-first h-full flex items-center">
+                <nav class="me-auto lg:w-10/12 w-2/12 lg:order-none order-first h-full flex items-center">
                     <button class="resposive-icon px-3 py-2 text-black bg-secondry-1 hidden text-2xl" @click="toggleMenuBar" v-if="!menubarOpen"><i class="fa-solid fa-bars"></i></button>
                 <button class="resposive-icon px-3 py-2 text-black bg-secondry-1 hidden text-2xl" @click="toggleMenuBar" v-if="menubarOpen"><i class="fa-solid fa-x"></i></button>
                     <ul class="flex flex-wrap items-center ul-menu h-full" v-if="menubarOpen || windowWidth >= 1023.999999999999999">

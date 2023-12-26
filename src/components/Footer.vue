@@ -3,14 +3,14 @@
         <section class="w-10/12 mx-auto">
             <div class="flex flex-wrap items-center lg:justify-between justify-center">
                 <div class="w-3/12 lg:mt-0 my-8"><img src="../assets/Images/sky-logo.png" class="h-24" alt=""></div>
-                <div class="flex lg:w-auto justify-center w-full ">
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-green-600 rounded-full"><i class="fa-brands fa-whatsapp text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-red-400 rounded-full"><i class="fa-brands fa-instagram text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-blue-400 rounded-full"><i class="fa-brands fa-twitter text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-blue-900 rounded-full"><i class="fa-brands fa-facebook-f text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-yellow-500 rounded-full"><i class="fa-brands fa-snapchat text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-black rounded-full"><i class="fa-brands fa-tiktok text-xl"></i></div>
-                    <div class="h-10 flex justify-center items-center text-white w-10 mx-3 bg-red-600 rounded-full"><i class="fa-brands fa-youtube text-xl"></i></div>
+                <div class="flex lg:w-auto gap-3 justify-between w-full ">
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-green-600 rounded-full"><i class="fa-brands fa-whatsapp text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-red-400 rounded-full"><i class="fa-brands fa-instagram text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-blue-400 rounded-full"><i class="fa-brands fa-twitter text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-blue-900 rounded-full"><i class="fa-brands fa-facebook-f text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-yellow-500 rounded-full"><i class="fa-brands fa-snapchat text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-black rounded-full"><i class="fa-brands fa-tiktok text-xl"></i></div>
+                    <div class="h-10 flex justify-center items-center text-white w-10 bg-red-600 rounded-full"><i class="fa-brands fa-youtube text-xl"></i></div>
                 </div>
             </div>
         </section>
